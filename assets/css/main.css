@@ -1,0 +1,77 @@
+main{
+    height: 1350px;
+}
+.promocoes{
+    width: 100%;
+    height: 200px;
+    background-color: #005424;
+    margin-top: 2vh;
+    background-image: url(../images/anuncio.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.produtos{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+.produtos h2{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+}
+
+div#produto-bg{
+    width: 170px;
+    height: 170px;
+    background-color: #005424;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.container{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row;
+}
+
+div.b1{
+    background-image: url(../images/b1.png);
+}
+div.b2{
+    background-image: url(../images/b2.png);
+}
+div.b3{
+    background-image: url(../images/b3.png);
+}
+div.b4{
+    background-image: url(../images/b4.png);
+}
+div.b5{
+    background-image: url(../images/b5.png);
+}
+div.b6{
+    background-image: url(../images/b6.png);
+}
+div.b7{
+    background-image: url(../images/b7.png);
+}
+div.b8{
+    background-image: url(../images/b8.png);
+}
+div.b9{
+    background-image: url(../images/b9.png);
+}
+div.b10{
+    background-image: url(../images/b10.png);
+}

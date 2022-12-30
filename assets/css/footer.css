@@ -1,0 +1,50 @@
+footer{
+    width: 100%;
+    bottom: 0px;
+}
+.cartoes{
+    background-color: #008037;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.cartoes h2{
+    font-size: 15px;
+    font-weight: 400;
+}
+.cartoes img{
+    width: 250px;
+}
+
+.contatenos{
+    background-color: #037635;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.contatenos h2{
+    font-size: 15px;
+    font-weight: 400;
+}
+.contatenos img{
+    width: 300px;
+}
+
+.rodape{
+    background-color: #005424; 
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.rodape p{
+    color: #fff;
+    font-size: 12px;
+}
