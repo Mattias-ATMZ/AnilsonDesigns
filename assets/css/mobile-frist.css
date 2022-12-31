@@ -1,0 +1,122 @@
+/* ========== MOBILE FIRST ==========*/
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (max-width: 480px) {
+    div#produto-bg{
+        width: 160px;
+        height: 160px;
+    }
+ }
+ /* SMALL DEVICES - TABLETS*/
+@media screen and (min-width: 768px) {
+        /*CONFIGURAÇOES DO HEADER*/
+    header section.nav{
+        height: 80px;
+    }
+    img.logo{
+        height: 55px;
+    }
+    ul.menu-list li a{
+        font-size: 12px;
+        gap: 15px;
+    }
+    img.menu-list-icons{
+        width: 18px;
+    }
+    
+    section.nav_alert{
+        height: 40px;
+        background-color: #F2CB00;
+        
+    }
+    section.nav_alert h2{
+        font-size: 15px; color: black;
+    }
+
+    /*CONFIGURAÇÃO DO MAIN*/
+    .promocoes{
+        height: 250px;
+        margin-top: 0vh;
+        background-image: url(../images/anuncio-2000×500.gif);
+    }
+    div#produto-bg{
+        width: 180px;
+        height: 180px;
+    }
+    .produtos h2{ /*"PRODUTOS"*/
+        font-size: 15px;
+        padding-top: 5vh;
+        padding-bottom: 4vh;
+    }
+    .container-produtos{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;  
+    }
+    .container{
+        display: flex;
+        gap: 20px;
+    }
+    
+ }
+/* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+@media screen and (min-width: 960px) {
+    /*CONFIGURAÇOES DO HEADER*/
+    header section.nav{
+        height: 80px;
+    }
+    img.logo{
+        height: 55px;
+    }
+    ul.menu-list li a{
+        font-size: 18px;
+        gap: 15px;
+    }
+    img.menu-list-icons{
+        width: 18px;
+    }
+    
+    section.nav_alert{
+        height: 40px;
+        background-color: #F2CB00;
+        
+    }
+    section.nav_alert h2{
+        font-size: 15px; color: black;
+    }
+
+    /*CONFIGURAÇÃO DO MAIN*/
+    .promocoes{
+        height: 250px;
+        margin-top: 0vh;
+        background-image: url(../images/anuncio-2000×500.gif);
+    }
+    div#produto-bg{
+        width: 250px;
+        height: 250px;
+    }
+    .produtos h2{ /*"PRODUTOS"*/
+        font-size: 15px;
+        padding-top: 5vh;
+        padding-bottom: 4vh;
+    }
+    .container-produtos{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;  
+    }
+    .container{
+        display: flex;
+        gap: 20px;
+    }
+}
+ /* LARGE DEVICES - WIDE SCREENS*/
+@media screen and (min-width: 1280px) {
+
+
+}
