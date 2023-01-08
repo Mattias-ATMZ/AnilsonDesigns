@@ -2,9 +2,15 @@ footer{
     width: 100%;
     bottom: 0px;
 }
+.footer-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
 .cartoes{
+    width: 100%;
     background-color: #008037;
-    height: 100px;
+    height: 150px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -20,8 +26,9 @@ footer{
 }
 
 .contatenos{
+    width: 100%;
     background-color: #037635;
-    height: 100px;
+    height: 150px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -33,12 +40,12 @@ footer{
     font-weight: 400;
 }
 .contatenos img{
-    width: 300px;
+    width: 200px;
 }
 
 .rodape{
     background-color: #005424; 
-    height: 25px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;

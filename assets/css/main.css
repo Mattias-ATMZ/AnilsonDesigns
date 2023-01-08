@@ -1,5 +1,6 @@
 main{
-    height: 1000px;
+    height: 100%;
+    padding-bottom: 5vh;
 }
 .promocoes{
     width: 100%;
@@ -53,32 +54,32 @@ div#produto-bg{
 
 
 div.b1{
-    background-image: url(../images/b1.png);
+    background-image: url(../images/b1.jpg);
 }
 div.b2{
-    background-image: url(../images/b2.png);
+    background-image: url(../images/b2.jpg);
 }
 div.b3{
-    background-image: url(../images/b3.png);
+    background-image: url(../images/b3.jpg);
 }
 div.b4{
-    background-image: url(../images/b4.png);
+    background-image: url(../images/b4.jpg);
 }
 div.b5{
-    background-image: url(../images/b5.png);
+    background-image: url(../images/b5.jpg);
 }
 div.b6{
-    background-image: url(../images/b6.png);
+    background-image: url(../images/b6.jpg);
 }
 div.b7{
-    background-image: url(../images/b7.png);
+    background-image: url(../images/b7.jpg);
 }
 div.b8{
-    background-image: url(../images/b8.png);
+    background-image: url(../images/b8.jpg);
 }
 div.b9{
-    background-image: url(../images/b9.png);
+    background-image: url(../images/b9.jpg);
 }
 div.b10{
-    background-image: url(../images/b10.png);
+    background-image: url(../images/b10.jpg);
 }

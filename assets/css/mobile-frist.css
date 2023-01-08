@@ -5,6 +5,12 @@
         width: 160px;
         height: 160px;
     }
+    .cartoes img{
+        width: 150px;
+    }
+    .contatenos img{
+        width: 140px;
+    }
  }
  /* SMALL DEVICES - TABLETS*/
 @media screen and (min-width: 768px) {
@@ -59,7 +65,7 @@
         display: flex;
         gap: 20px;
     }
-    
+
  }
 /* MEDIUM DEVICES - TABLETS & DESKTOPS*/
 @media screen and (min-width: 960px) {
@@ -114,6 +120,7 @@
         display: flex;
         gap: 20px;
     }
+
 }
  /* LARGE DEVICES - WIDE SCREENS*/
 @media screen and (min-width: 1280px) {
